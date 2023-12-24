@@ -1,0 +1,15 @@
+/Users/atakanaktakka/Desktop/CarBook/Core/CarBook.Application/bin/Debug/net8.0/CarBook.Application.deps.json
+/Users/atakanaktakka/Desktop/CarBook/Core/CarBook.Application/bin/Debug/net8.0/CarBook.Application.dll
+/Users/atakanaktakka/Desktop/CarBook/Core/CarBook.Application/bin/Debug/net8.0/CarBook.Application.pdb
+/Users/atakanaktakka/Desktop/CarBook/Core/CarBook.Application/bin/Debug/net8.0/CarBook.Domain.dll
+/Users/atakanaktakka/Desktop/CarBook/Core/CarBook.Application/bin/Debug/net8.0/CarBook.Domain.pdb
+/Users/atakanaktakka/Desktop/CarBook/Core/CarBook.Application/obj/Debug/net8.0/CarBook.Application.csproj.AssemblyReference.cache
+/Users/atakanaktakka/Desktop/CarBook/Core/CarBook.Application/obj/Debug/net8.0/CarBook.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/atakanaktakka/Desktop/CarBook/Core/CarBook.Application/obj/Debug/net8.0/CarBook.Application.AssemblyInfoInputs.cache
+/Users/atakanaktakka/Desktop/CarBook/Core/CarBook.Application/obj/Debug/net8.0/CarBook.Application.AssemblyInfo.cs
+/Users/atakanaktakka/Desktop/CarBook/Core/CarBook.Application/obj/Debug/net8.0/CarBook.Application.csproj.CoreCompileInputs.cache
+/Users/atakanaktakka/Desktop/CarBook/Core/CarBook.Application/obj/Debug/net8.0/CarBook.Application.csproj.CopyComplete
+/Users/atakanaktakka/Desktop/CarBook/Core/CarBook.Application/obj/Debug/net8.0/CarBook.Application.dll
+/Users/atakanaktakka/Desktop/CarBook/Core/CarBook.Application/obj/Debug/net8.0/refint/CarBook.Application.dll
+/Users/atakanaktakka/Desktop/CarBook/Core/CarBook.Application/obj/Debug/net8.0/CarBook.Application.pdb
+/Users/atakanaktakka/Desktop/CarBook/Core/CarBook.Application/obj/Debug/net8.0/ref/CarBook.Application.dll
