@@ -13,3 +13,4 @@
 /Users/atakanaktakka/Desktop/CarBook/Core/CarBook.Application/obj/Debug/net8.0/refint/CarBook.Application.dll
 /Users/atakanaktakka/Desktop/CarBook/Core/CarBook.Application/obj/Debug/net8.0/CarBook.Application.pdb
 /Users/atakanaktakka/Desktop/CarBook/Core/CarBook.Application/obj/Debug/net8.0/ref/CarBook.Application.dll
+/Users/atakanaktakka/Desktop/CarBook/Core/CarBook.Application/obj/Debug/net8.0/CarBook.Application.sourcelink.json

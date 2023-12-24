@@ -9,3 +9,4 @@
 /Users/atakanaktakka/Desktop/CarBook/Core/CarBook.Domain/obj/Debug/net8.0/refint/CarBook.Domain.dll
 /Users/atakanaktakka/Desktop/CarBook/Core/CarBook.Domain/obj/Debug/net8.0/CarBook.Domain.pdb
 /Users/atakanaktakka/Desktop/CarBook/Core/CarBook.Domain/obj/Debug/net8.0/ref/CarBook.Domain.dll
+/Users/atakanaktakka/Desktop/CarBook/Core/CarBook.Domain/obj/Debug/net8.0/CarBook.Domain.sourcelink.json
