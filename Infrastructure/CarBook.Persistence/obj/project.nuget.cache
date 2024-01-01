@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "3PQ0T+iPzTIKcVjHRt0n6QpSJf+gqggZKgl5ws0dWCXdEfM/rz3mVC2dP6zE6JgcqcorSRKi8ZZeDQsNci3kLg==",
+  "dgSpecHash": "5UQqaz+W4kB0TbSkA+tt/rTGmWv3YCiWjWRJfHPVfgjV2qTy+/aoDK/exuSjqBE4J9i+A8DuTh8KYgBOtAIS2A==",
   "success": true,
   "projectFilePath": "/Users/atakanaktakka/Desktop/CarBook/Infrastructure/CarBook.Persistence/CarBook.Persistence.csproj",
   "expectedPackageFiles": [
     "/Users/atakanaktakka/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/Users/atakanaktakka/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",
     "/Users/atakanaktakka/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/Users/atakanaktakka/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
+    "/Users/atakanaktakka/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/atakanaktakka/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "/Users/atakanaktakka/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "/Users/atakanaktakka/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.3/microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "/Users/atakanaktakka/.nuget/packages/microsoft.codeanalysis.common/4.5.0/microsoft.codeanalysis.common.4.5.0.nupkg.sha512",
@@ -80,5 +83,16 @@
     "/Users/atakanaktakka/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "/Users/atakanaktakka/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 12.2.0 was resolved.",
+      "libraryId": "MediatR",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

@@ -1,8 +1,26 @@
 {
   "version": 2,
-  "dgSpecHash": "MTEVNtXWNuyv+b2kqP+uXEOA7iDCbMKnaTKFznMCeICEokPYNK4t1zuqyefKZEjpGTAqBTphaz6Ja1VxbQMOtw==",
+  "dgSpecHash": "4kVq8uIkCYc0IXE6W4zP47ZkQiGpyodQbuPJwI0cnErt55++sFKphkAS5NbtZQM6fPEwmfY7dlY8MruNkcbA4g==",
   "success": true,
   "projectFilePath": "/Users/atakanaktakka/Desktop/CarBook/Core/CarBook.Application/CarBook.Application.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "/Users/atakanaktakka/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
+    "/Users/atakanaktakka/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/atakanaktakka/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "/Users/atakanaktakka/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/Users/atakanaktakka/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/Users/atakanaktakka/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 12.2.0 was resolved.",
+      "libraryId": "MediatR",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
