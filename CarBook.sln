@@ -17,13 +17,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBook.WebApi", "Presentation\CarBook.WebApi\CarBook.WebApi.csproj", "{FE11CD4C-084D-437D-9373-4782ADA71D99}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontends", "Frontends", "{FF41EA54-2218-4B9B-A2F1-28715FEBE84E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBook.WebUI", "FrontEnds\CarBook.WebUI\CarBook.WebUI.csproj", "{F6CF3849-74A5-41A1-A141-094B7A2A5D83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{29B78FE7-99E8-4248-9724-05749AAB901A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -42,11 +43,19 @@ Global
 		{FE11CD4C-084D-437D-9373-4782ADA71D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE11CD4C-084D-437D-9373-4782ADA71D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE11CD4C-084D-437D-9373-4782ADA71D99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6CF3849-74A5-41A1-A141-094B7A2A5D83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6CF3849-74A5-41A1-A141-094B7A2A5D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6CF3849-74A5-41A1-A141-094B7A2A5D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6CF3849-74A5-41A1-A141-094B7A2A5D83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{29B78FE7-99E8-4248-9724-05749AAB901A} = {603223F9-A99F-412A-B24E-2643ACA01949}
 		{CBDE094F-3797-4FD2-B7CA-424427CD4143} = {603223F9-A99F-412A-B24E-2643ACA01949}
 		{0A4F4401-5513-40C0-BAFB-9AA7F5B1CD4E} = {AA0196F5-5F00-4E37-91B9-6CD67E7AB657}
 		{FE11CD4C-084D-437D-9373-4782ADA71D99} = {EF82B6E7-86B7-47CF-A2ED-10B5E0F4A79F}
+		{F6CF3849-74A5-41A1-A141-094B7A2A5D83} = {FF41EA54-2218-4B9B-A2F1-28715FEBE84E}
 	EndGlobalSection
 EndGlobal
