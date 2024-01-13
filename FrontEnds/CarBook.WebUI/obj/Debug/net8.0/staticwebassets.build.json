@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SJ0KAUjdnnGBI8gDx6qzSuK0a7A4YsHd5KqX3Qcs9OM=",
+  "Hash": "iawbnmv5DNsnpC9U1NksMf86dLWX8EwNWPnKutkunMA=",
   "Source": "CarBook.WebUI",
   "BasePath": "_content/CarBook.WebUI",
   "Mode": "Default",
@@ -16,6 +16,44 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "/Users/atakanaktakka/.nuget/packages/microsoft.aspnetcore.components.quickgrid/8.0.1/staticwebassets/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
+      "SourceType": "Package",
+      "ContentRoot": "/Users/atakanaktakka/.nuget/packages/microsoft.aspnetcore.components.quickgrid/8.0.1/staticwebassets/",
+      "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
+      "RelativePath": "Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/atakanaktakka/.nuget/packages/microsoft.aspnetcore.components.quickgrid/8.0.1/staticwebassets/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/atakanaktakka/.nuget/packages/microsoft.aspnetcore.components.quickgrid/8.0.1/staticwebassets/QuickGrid.razor.js",
+      "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
+      "SourceType": "Package",
+      "ContentRoot": "/Users/atakanaktakka/.nuget/packages/microsoft.aspnetcore.components.quickgrid/8.0.1/staticwebassets/",
+      "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
+      "RelativePath": "QuickGrid.razor.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/atakanaktakka/.nuget/packages/microsoft.aspnetcore.components.quickgrid/8.0.1/staticwebassets/QuickGrid.razor.js"
+    },
     {
       "Identity": "/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/obj/Debug/net8.0/scopedcss/bundle/CarBook.WebUI.styles.css",
       "SourceId": "CarBook.WebUI",

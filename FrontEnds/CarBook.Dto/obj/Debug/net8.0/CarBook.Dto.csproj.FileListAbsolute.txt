@@ -1,0 +1,12 @@
+/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.Dto/bin/Debug/net8.0/CarBook.Dto.deps.json
+/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.Dto/bin/Debug/net8.0/CarBook.Dto.dll
+/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.Dto/bin/Debug/net8.0/CarBook.Dto.pdb
+/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.Dto/obj/Debug/net8.0/CarBook.Dto.GeneratedMSBuildEditorConfig.editorconfig
+/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.Dto/obj/Debug/net8.0/CarBook.Dto.AssemblyInfoInputs.cache
+/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.Dto/obj/Debug/net8.0/CarBook.Dto.AssemblyInfo.cs
+/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.Dto/obj/Debug/net8.0/CarBook.Dto.csproj.CoreCompileInputs.cache
+/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.Dto/obj/Debug/net8.0/CarBook.Dto.sourcelink.json
+/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.Dto/obj/Debug/net8.0/CarBook.Dto.dll
+/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.Dto/obj/Debug/net8.0/refint/CarBook.Dto.dll
+/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.Dto/obj/Debug/net8.0/CarBook.Dto.pdb
+/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.Dto/obj/Debug/net8.0/ref/CarBook.Dto.dll
