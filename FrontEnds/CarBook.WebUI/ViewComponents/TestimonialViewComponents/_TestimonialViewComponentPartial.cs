@@ -17,7 +17,7 @@ namespace CarBook.WebUI.ViewComponents.TestimonialViewComponents
         }
         public async Task<IViewComponentResult> InvokeAsync()
         {
-                 var client = _httpClientFactory.CreateClient();
+            var client = _httpClientFactory.CreateClient();
             var  responseMessage = await client.GetAsync("https://localhost:7004/api/Testimonials");
             if (responseMessage.IsSuccessStatusCode)
             {
