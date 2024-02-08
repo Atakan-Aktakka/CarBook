@@ -1,4 +1,4 @@
-    @model List<CarBook.Dto.AboutDtos.ResultAboutDto>
+    @model List<ResultAboutDto>
         @foreach (var item in Model)
         {
         <section class="ftco-section ftco-about">
@@ -12,7 +12,7 @@
 	            <h2 class="mb-4">@item.title</h2>
 
 	            <p>@item.description</p>
-	            <p><a href="#" class="btn btn-primary py-3 px-4">Search Vehicle</a></p>
+	            <p><a href="/RentACar/Index/" class="btn btn-primary py-3 px-4">Search Vehicle</a></p>
 	          </div>
 					</div>
 				</div>

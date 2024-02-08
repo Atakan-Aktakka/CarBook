@@ -70,12 +70,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0RlZmF1bHRMYXN0NUNhcnNXaXRoQnJhbmRzQ29tcG9uZW50UGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Shared/Components/_DefaultStatisticComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0RlZmF1bHRTdGF0aXN0aWNDb21wb25lbnRQYXJ0aWFsL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Shared/Components/_FooterAddressComponentPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0Zvb3RlckFkZHJlc3NDb21wb25lbnRQYXJ0aWFsL0RlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Shared/Components/_FooterUILayoutComponentPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0Zvb3RlclVJTGF5b3V0Q29tcG9uZW50UGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Shared/Components/_GetLast3BlogsWithAuthorListComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0dldExhc3QzQmxvZ3NXaXRoQXV0aG9yTGlzdENvbXBvbmVudFBhcnRpYWwvRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Shared/Components/_HeaderUILayoutComponentPartial/Default.cshtml]

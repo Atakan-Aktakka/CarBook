@@ -5,26 +5,12 @@
 <!DOCTYPE html>
 <html lang="en">
 @await Component.InvokeAsync("_HeaderUILayoutComponentPartial")
-
   <body>
      @await Component.InvokeAsync("_NavbarUILayoutComponentPartial")
-
-    <!-- END nav -->
     @await Component.InvokeAsync("_MainCoverUILayoutComponentPartial")
-
-   
     @RenderBody()
-    @await Component.InvokeAsync("_FooterUILayoutComponentPartial")
-
-   
-
-
-    
+    @await Component.InvokeAsync("_FooterUILayoutComponentPartial") 
    @await Component.InvokeAsync("_ScriptUILayoutComponentPartial")
-
-
-
-
   </body>
 </html>
 
