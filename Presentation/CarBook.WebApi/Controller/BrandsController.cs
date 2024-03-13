@@ -43,13 +43,13 @@ namespace CarBook.WebApi.Controller
             await _createBrandCommandHandler.Handle(command);
             return Ok("Brand Eklendi");
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> RemoveBrand(int id)
         {
             await _removeBrandCommandHandler.Handle(new RemoveBrandCommand(id));
             return Ok("Brand Silindi");
         }
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<IActionResult> UpdateBrand(UpdateBrandCommand command)
         {
             await _updateBrandCommandHandler.Handle(command);

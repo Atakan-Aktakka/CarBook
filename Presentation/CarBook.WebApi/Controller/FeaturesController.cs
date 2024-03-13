@@ -37,13 +37,13 @@ namespace CarBook.WebApi.Controller
             await _mediator.Send(command);
             return Ok("Özellik başarıyla eklendi");
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteFeature(int id)
         {
             await _mediator.Send(new RemoveFeatureCommand(id));
             return Ok("Özellik başarıyla silindi");
         }
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<IActionResult> UpdateFeature(UpdateFeatureCommand command)
         {
             await _mediator.Send(command);
