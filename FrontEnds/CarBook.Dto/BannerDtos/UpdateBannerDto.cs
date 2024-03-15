@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace CarBook.Dto.BannerDtos
 {
-    public class ResultBannerDto
+    public class UpdateBannerDto
     {
         public int bannerID { get; set; }
         public string title { get; set; }

@@ -16,4 +16,8 @@
     <ProjectReference Include="..\CarBook.Dto\CarBook.Dto.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Areas/" />
+  </ItemGroup>
+
 </Project>

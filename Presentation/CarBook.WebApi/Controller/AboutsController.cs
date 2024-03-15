@@ -48,14 +48,14 @@ namespace CarBook.WebApi.Controller
             return Ok("Hakkımda Bilgisi Eklendi");
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> RemoveAbout(int id)
         {
             await _removeAboutCommandHandler.Handle(new RemoveAboutCommand(id));
             return Ok("Hakkımda Bilgisi Silindi");
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<IActionResult> UpdateAbout(UpdateAboutCommand command)
         {
             await _updateAboutCommandHandler.Handle(command);

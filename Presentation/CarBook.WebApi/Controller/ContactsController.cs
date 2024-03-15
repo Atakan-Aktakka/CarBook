@@ -49,14 +49,14 @@ namespace CarBook.WebApi.Controller
             return Ok("İletişim Bilgisi Eklendi");
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> RemoveContact(int id)
         {
             await _removeContactCommandHandler.Handle(new RemoveContactCommand(id));
             return Ok("İletişim Bilgisi Silindi");
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<IActionResult> UpdateContact(UpdateContactCommand command)
         {
             await _updateContactCommandHandler.Handle(command);

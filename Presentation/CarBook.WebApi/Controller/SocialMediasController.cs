@@ -36,13 +36,13 @@ namespace CarBook.WebApi.Controller
             await _mediator.Send(command);
             return Ok("Sosyal Medya başarıyla eklendi");
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> RemoveSocialMedia(int id)
         {
             await _mediator.Send(new RemoveSocialMediaCommand(id));
             return Ok("Sosyal Medya başarıyla silindi");
         }
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<IActionResult> UpdateSocialMedia(UpdateSocialMediaCommand command)
         {
             await _mediator.Send(command);

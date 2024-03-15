@@ -37,13 +37,13 @@ namespace CarBook.WebApi.Controller
             await _mediator.Send(command);
             return Ok("Alt Adres başarıyla eklendi");
         }
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<IActionResult> Update(UpdateFooterAddressCommand command)
         {
             await _mediator.Send(command);
             return Ok("Alt Adres başarıyla güncellendi");
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
             await _mediator.Send(new RemoveFooterAddressCommand(id));

@@ -45,13 +45,13 @@ namespace CarBook.WebApi.Controller
             await _createBannerCommandHandler.Handle(command);
             return Ok("Banner Eklendi");
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> RemoveBanner(int id)
         {
             await _removeBannerCommandHandler.Handle(new RemoveBannerCommand(id));
             return Ok("Banner Silindi");
         }
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<IActionResult> UpdateBanner(UpdateBannerCommand command)
         {
             await _updateBannerCommandHandler.Handle(command);

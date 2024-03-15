@@ -36,7 +36,7 @@ namespace CarBook.WebApi.Controller
             _commentRepository.Create(comment);
             return Ok("Yorum Başarıyla Eklendi.");
         }
-        [HttpPut]
+        [HttpPut("{id}")]
         public IActionResult UpdateComment(Comment comment)
         {
             _commentRepository.Update(comment);

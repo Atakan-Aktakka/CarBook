@@ -1,0 +1,43 @@
+@model UpdateBannerDto
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+
+}
+<div class="page-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Banner Güncelleme</h4>
+                        <p class="card-subtitle mb-4">Banner ile ilgili bilgileri eksiksiz doldurmanız önemlidir</p>
+                        <form method="post">
+                            <input asp-for="bannerID" type="hidden" />
+                            <div class="form-group">
+                                <label for="exampleInputBannerName">İsim</label>
+                                <input type="text" class="form-control" id="exampleInputBannerName" asp-for="title"
+                                    placeholder="Başlık Girişi Yapınız">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputBannerName">İsim</label>
+                                <input type="text" class="form-control" id="exampleInputBannerName" asp-for="description"
+                                    placeholder="Açıklama Girişi Yapınız">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputBannerName">İsim</label>
+                                <input type="text" class="form-control" id="exampleInputBannerName" asp-for="videoUrl"
+                                    placeholder="Video Linli Girişi Yapınız">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputBannerName">İsim</label>
+                                <input type="text" class="form-control" id="exampleInputBannerName" asp-for="videoDescription"
+                                    placeholder="Video Açıklaması Girişi Yapınız">
+                            </div>
+                            <button type="submit" class="btn btn-primary waves-effect waves-light">Banner Kaydet</button>
+                        </form>
+                    </div> 
+                </div> 
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,43 @@
+@model CreateBannerDto
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+
+}
+<div class="page-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Yeni Banner Girişi</h4>
+                        <p class="card-subtitle mb-4">Banner ile ilgili bilgileri eksiksiz doldurmanız önemlidir</p>
+                        <form method="post">
+                            <div class="form-group">
+                                <label for="exampleInputBannerName">Başlık</label>
+                                <input type="text" class="form-control" id="exampleInputBannerName" asp-for="title"
+                                    placeholder="Başlık Girişi Yapınız">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputBannerName">Açıklama</label>
+                                <input type="text" class="form-control" id="exampleInputBannerName" asp-for="description"
+                                    placeholder="Açıklama Girişi Yapınız">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputBannerName">Video Linki</label>
+                                <input type="text" class="form-control" id="exampleInputBannerName" asp-for="videoUrl"
+                                    placeholder="Video Linli Girişi Yapınız">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputBannerName">Vdeo Açıklaması</label>
+                                <input type="text" class="form-control" id="exampleInputBannerName" asp-for="videoDescription"
+                                    placeholder="Video Açıklaması Girişi Yapınız">
+                            </div>
+                            <button type="submit" class="btn btn-primary waves-effect waves-light">Banner
+                                Kaydet</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

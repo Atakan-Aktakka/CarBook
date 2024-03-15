@@ -43,13 +43,13 @@ namespace CarBook.WebApi.Controller
             await _mediator.Send(command);
             return Ok("Etiket başarıyla eklendi");
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteTagCloud(int id)
         {
             await _mediator.Send(new RemoveTagCloudCommand(id));
             return Ok("Etiket başarıyla silindi");
         }
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<IActionResult> UpdateTagCloud(UpdateTagCloudCommand command)
         {
             await _mediator.Send(command);
