@@ -49,6 +49,12 @@ namespace CarBook.WebApi.Controller
             _commentRepository.Remove(comment);
             return Ok("Yorum Başarıyla Silindi.");
         }
+        [HttpGet("GetCommentsByBlogId/{id}")]
+        public IActionResult GetCommentsByBlogId(int id)
+        {
+            var comments = _commentRepository.GetComentsByBlogId(id);
+            return Ok(comments);
+        }
         
     }
 }
