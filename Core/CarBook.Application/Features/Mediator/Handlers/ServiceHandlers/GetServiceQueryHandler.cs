@@ -25,7 +25,7 @@ namespace CarBook.Application.Features.Mediator.Handlers.ServiceHandlers
                 Description = x.Description,
                 IconUrl = x.IconUrl,
                 Title = x.Title,
-                ServiceID = x.ServicesID
+                ServiceID = x.ServiceID
             }).ToList();
         }
     }
