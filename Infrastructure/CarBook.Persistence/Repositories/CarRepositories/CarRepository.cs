@@ -16,6 +16,9 @@ namespace CarBook.Persistence.Repositories.CarRepositories
         {
             _context = context;
         }
+
+
+
         public List<Car> GetCarsListWithBrands()
         {
            var values = _context.Cars.Include(x => x.Brand).ToList();

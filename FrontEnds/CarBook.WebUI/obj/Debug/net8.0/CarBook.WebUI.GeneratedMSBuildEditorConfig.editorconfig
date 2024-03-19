@@ -1,0 +1,383 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CarBook.WebUI
+build_property.RootNamespace = CarBook.WebUI
+build_property.ProjectDir = /Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/AdminAbout/CreateAbout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5BYm91dC9DcmVhdGVBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/AdminAbout/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5BYm91dC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/AdminAbout/UpdateAbout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5BYm91dC9VcGRhdGVBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/AdminAuthor/CreateAuthor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5BdXRob3IvQ3JlYXRlQXV0aG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/AdminAuthor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5BdXRob3IvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/AdminAuthor/UpdateAuthor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5BdXRob3IvVXBkYXRlQXV0aG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/AdminBanner/CreateBanner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5CYW5uZXIvQ3JlYXRlQmFubmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/AdminBanner/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5CYW5uZXIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/AdminBanner/UpdateBanner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5CYW5uZXIvVXBkYXRlQmFubmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/AdminBlog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5CbG9nL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/AdminCategory/CreateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5DYXRlZ29yeS9DcmVhdGVDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/AdminCategory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5DYXRlZ29yeS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/AdminCategory/UpdateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5DYXRlZ29yeS9VcGRhdGVDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/AdminComment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5Db21tZW50L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/AdminContact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5Db250YWN0L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/AdminFooterAddress/CreateFooterAddress.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5Gb290ZXJBZGRyZXNzL0NyZWF0ZUZvb3RlckFkZHJlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/AdminFooterAddress/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5Gb290ZXJBZGRyZXNzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/AdminFooterAddress/UpdateFooterAddress.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5Gb290ZXJBZGRyZXNzL1VwZGF0ZUZvb3RlckFkZHJlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/AdminLocation/CreateLcoation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5Mb2NhdGlvbi9DcmVhdGVMY29hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/AdminLocation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5Mb2NhdGlvbi9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/AdminLocation/UpdateLocation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5Mb2NhdGlvbi9VcGRhdGVMb2NhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/AdminPricing/CreatePricing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5QcmljaW5nL0NyZWF0ZVByaWNpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/AdminPricing/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5QcmljaW5nL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/AdminPricing/UpdatePricing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5QcmljaW5nL1VwZGF0ZVByaWNpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/AdminService/CreateService.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5TZXJ2aWNlL0NyZWF0ZVNlcnZpY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/AdminService/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5TZXJ2aWNlL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/AdminService/UpdateService.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5TZXJ2aWNlL1VwZGF0ZVNlcnZpY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/AdminSocialMedia/CreateSocialMedia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5Tb2NpYWxNZWRpYS9DcmVhdGVTb2NpYWxNZWRpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/AdminSocialMedia/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5Tb2NpYWxNZWRpYS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/AdminSocialMedia/UpdateSocialMedia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5Tb2NpYWxNZWRpYS9VcGRhdGVTb2NpYWxNZWRpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/AdminStatistics/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5TdGF0aXN0aWNzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/AdminTestimonial/CreateTestimonial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5UZXN0aW1vbmlhbC9DcmVhdGVUZXN0aW1vbmlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/AdminTestimonial/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5UZXN0aW1vbmlhbC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/AdminTestimonial/UpdateTestimonial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRtaW5UZXN0aW1vbmlhbC9VcGRhdGVUZXN0aW1vbmlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWJvdXQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/AdminBrand/CreateBrand.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5CcmFuZC9DcmVhdGVCcmFuZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/AdminBrand/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5CcmFuZC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/AdminBrand/UpdateBrand.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5CcmFuZC9VcGRhdGVCcmFuZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/AdminCar/CreateCar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5DYXIvQ3JlYXRlQ2FyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/AdminCar/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5DYXIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/AdminCar/UpdateCar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5DYXIvVXBkYXRlQ2FyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/AdminFeature/CreateFeature.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5GZWF0dXJlL0NyZWF0ZUZlYXR1cmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/AdminFeature/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5GZWF0dXJlL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/AdminFeature/UpdateFeature.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5GZWF0dXJlL1VwZGF0ZUZlYXR1cmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/AdminLayout/AdminFooterPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5MYXlvdXQvQWRtaW5Gb290ZXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/AdminLayout/AdminHeaderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5MYXlvdXQvQWRtaW5IZWFkZXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/AdminLayout/AdminNavbarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5MYXlvdXQvQWRtaW5OYXZiYXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/AdminLayout/AdminScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5MYXlvdXQvQWRtaW5TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/AdminLayout/AdminSidebarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5MYXlvdXQvQWRtaW5TaWRlYmFyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/AdminLayout/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5MYXlvdXQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Blog/BlogDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmxvZy9CbG9nRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Blog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmxvZy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Car/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FyL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udGFjdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Default/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVmYXVsdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Service/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2VydmljZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Shared/Components/_AboutUsComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0Fib3V0VXNDb21wb25lbnRQYXJ0aWFsL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Shared/Components/_AddCommentComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0FkZENvbW1lbnRDb21wb25lbnRQYXJ0aWFsL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Shared/Components/_BecomeADriverComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0JlY29tZUFEcml2ZXJDb21wb25lbnRQYXJ0aWFsL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Shared/Components/_BlogDetailsAuthorAboutComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0Jsb2dEZXRhaWxzQXV0aG9yQWJvdXRDb21wb25lbnRQYXJ0aWFsL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Shared/Components/_BlogDetailsCateogryViewComponentsPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0Jsb2dEZXRhaWxzQ2F0ZW9ncnlWaWV3Q29tcG9uZW50c1BhcnRpYWwvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Shared/Components/_BlogDetailsCloudTagByBlogComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0Jsb2dEZXRhaWxzQ2xvdWRUYWdCeUJsb2dDb21wb25lbnRQYXJ0aWFsL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Shared/Components/_BlogDetailSideBarSearchBoxComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0Jsb2dEZXRhaWxTaWRlQmFyU2VhcmNoQm94Q29tcG9uZW50UGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Shared/Components/_BlogDetailsMainComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0Jsb2dEZXRhaWxzTWFpbkNvbXBvbmVudFBhcnRpYWwvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Shared/Components/_BlogDetailsParagraphComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0Jsb2dEZXRhaWxzUGFyYWdyYXBoQ29tcG9uZW50UGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Shared/Components/_BlogDetailsRecentBlogsComponentsPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0Jsb2dEZXRhaWxzUmVjZW50QmxvZ3NDb21wb25lbnRzUGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Shared/Components/_BlogDetailsTagCloudComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0Jsb2dEZXRhaWxzVGFnQ2xvdWRDb21wb25lbnRQYXJ0aWFsL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Shared/Components/_CommentListByBlogComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0NvbW1lbnRMaXN0QnlCbG9nQ29tcG9uZW50UGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Shared/Components/_DefaultCoverUILayoutComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0RlZmF1bHRDb3ZlclVJTGF5b3V0Q29tcG9uZW50UGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Shared/Components/_DefaultLast5CarsWithBrandsComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0RlZmF1bHRMYXN0NUNhcnNXaXRoQnJhbmRzQ29tcG9uZW50UGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Shared/Components/_DefaultStatisticComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0RlZmF1bHRTdGF0aXN0aWNDb21wb25lbnRQYXJ0aWFsL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Shared/Components/_FooterAddressComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0Zvb3RlckFkZHJlc3NDb21wb25lbnRQYXJ0aWFsL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Shared/Components/_FooterUILayoutComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0Zvb3RlclVJTGF5b3V0Q29tcG9uZW50UGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Shared/Components/_GetLast3BlogsWithAuthorListComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0dldExhc3QzQmxvZ3NXaXRoQXV0aG9yTGlzdENvbXBvbmVudFBhcnRpYWwvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Shared/Components/_HeaderUILayoutComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0hlYWRlclVJTGF5b3V0Q29tcG9uZW50UGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Shared/Components/_MainCoverUILayoutComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX01haW5Db3ZlclVJTGF5b3V0Q29tcG9uZW50UGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Shared/Components/_NavbarUILayoutComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX05hdmJhclVJTGF5b3V0Q29tcG9uZW50UGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Shared/Components/_ScriptUILayoutComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1NjcmlwdFVJTGF5b3V0Q29tcG9uZW50UGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Shared/Components/_ServiceComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1NlcnZpY2VDb21wb25lbnRQYXJ0aWFsL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Shared/Components/_TestimonialViewComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1Rlc3RpbW9uaWFsVmlld0NvbXBvbmVudFBhcnRpYWwvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/UILayout/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVUlMYXlvdXQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/atakanaktakka/Desktop/CarBook/FrontEnds/CarBook.WebUI/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-m09tc8g5vn
