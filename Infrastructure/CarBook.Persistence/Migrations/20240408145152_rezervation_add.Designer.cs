@@ -4,6 +4,7 @@ using CarBook.Persistence.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CarBook.Persistence.Migrations
 {
     [DbContext(typeof(CarBookContext))]
-    partial class CarBookContextModelSnapshot : ModelSnapshot
+    [Migration("20240408145152_rezervation_add")]
+    partial class rezervation_add
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -543,13 +546,13 @@ namespace CarBook.Persistence.Migrations
                     b.ToTable("RentACarProcesses");
                 });
 
-            modelBuilder.Entity("CarBook.Domain.Entities.Reservation", b =>
+            modelBuilder.Entity("CarBook.Domain.Entities.Rezervation", b =>
                 {
-                    b.Property<int>("ReservationID")
+                    b.Property<int>("RezervationID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ReservationID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RezervationID"));
 
                     b.Property<int>("Age")
                         .HasColumnType("int");
@@ -581,23 +584,17 @@ namespace CarBook.Persistence.Migrations
                     b.Property<int?>("PickUpLocationID")
                         .HasColumnType("int");
 
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Surname")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("ReservationID");
-
-                    b.HasIndex("CarID");
+                    b.HasKey("RezervationID");
 
                     b.HasIndex("DropOffLocationID");
 
                     b.HasIndex("PickUpLocationID");
 
-                    b.ToTable("Reservations");
+                    b.ToTable("Rezervations");
                 });
 
             modelBuilder.Entity("CarBook.Domain.Entities.Service", b =>
@@ -833,23 +830,15 @@ namespace CarBook.Persistence.Migrations
                     b.Navigation("Customer");
                 });
 
-            modelBuilder.Entity("CarBook.Domain.Entities.Reservation", b =>
+            modelBuilder.Entity("CarBook.Domain.Entities.Rezervation", b =>
                 {
-                    b.HasOne("CarBook.Domain.Entities.Car", "Car")
-                        .WithMany()
-                        .HasForeignKey("CarID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("CarBook.Domain.Entities.Location", "DropOffLocation")
-                        .WithMany("DropOffReservation")
+                        .WithMany("DropOffRezervation")
                         .HasForeignKey("DropOffLocationID");
 
                     b.HasOne("CarBook.Domain.Entities.Location", "PickUpLocation")
-                        .WithMany("PickUpReservation")
+                        .WithMany("PickUpRezervation")
                         .HasForeignKey("PickUpLocationID");
-
-                    b.Navigation("Car");
 
                     b.Navigation("DropOffLocation");
 
@@ -909,9 +898,9 @@ namespace CarBook.Persistence.Migrations
 
             modelBuilder.Entity("CarBook.Domain.Entities.Location", b =>
                 {
-                    b.Navigation("DropOffReservation");
+                    b.Navigation("DropOffRezervation");
 
-                    b.Navigation("PickUpReservation");
+                    b.Navigation("PickUpRezervation");
 
                     b.Navigation("RentACars");
                 });
