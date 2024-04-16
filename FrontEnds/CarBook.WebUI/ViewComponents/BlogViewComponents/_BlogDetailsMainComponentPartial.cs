@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using CarBook.Dto.BlogDtos;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -25,6 +21,7 @@ namespace CarBook.WebUI.ViewComponents.BlogViewComponents
                 var values = JsonConvert.DeserializeObject<GetBlogById>(jsonData);
                 return View(values);
             }
+           
             return View();
         }
     }
