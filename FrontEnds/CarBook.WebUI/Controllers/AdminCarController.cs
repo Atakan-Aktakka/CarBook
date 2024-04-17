@@ -22,9 +22,9 @@ namespace CarBook.WebUI.Controllers
             var responseMessage = await client.GetAsync("https://localhost:7004/api/Cars/GetCarWithBrand");
             if (responseMessage.IsSuccessStatusCode)
             {
-               var jsonData = await responseMessage.Content.ReadAsStringAsync();
-               var values = JsonConvert.DeserializeObject<List<ResultCarWithBrandDtos>>(jsonData);
-                return View(values);              
+                var jsonData = await responseMessage.Content.ReadAsStringAsync();
+                var values = JsonConvert.DeserializeObject<List<ResultCarWithBrandDtos>>(jsonData);
+                return View(values);
             }
             return View();
         }
@@ -36,11 +36,11 @@ namespace CarBook.WebUI.Controllers
             var jsonData = await responseMessage.Content.ReadAsStringAsync();
             var values = JsonConvert.DeserializeObject<List<ResultBrandDto>>(jsonData);
             List<SelectListItem> brandValues = (from x in values
-                                          select new SelectListItem
-                                          {
-                                            Text = x.name,
-                                            Value = x.brandID.ToString()
-                                          }).ToList();
+                                                select new SelectListItem
+                                                {
+                                                    Text = x.name,
+                                                    Value = x.brandID.ToString()
+                                                }).ToList();
             ViewBag.BrandValues = brandValues;
             return View();
         }
@@ -49,7 +49,7 @@ namespace CarBook.WebUI.Controllers
         {
             var client = _clientFactory.CreateClient();
             var json = JsonConvert.SerializeObject(createCarDto);
-           StringContent stringContent = new StringContent(json, Encoding.UTF8, "application/json");
+            StringContent stringContent = new StringContent(json, Encoding.UTF8, "application/json");
             var responseMessage = await client.PostAsync("https://localhost:7004/api/Cars", stringContent);
             if (responseMessage.IsSuccessStatusCode)
             {
@@ -60,7 +60,7 @@ namespace CarBook.WebUI.Controllers
         public async Task<IActionResult> RemoveCar(int id)
         {
             var client = _clientFactory.CreateClient();
-            var responseMessage = await client.DeleteAsync("https://localhost:7004/api/Cars/"+id);
+            var responseMessage = await client.DeleteAsync("https://localhost:7004/api/Cars/" + id);
             if (responseMessage.IsSuccessStatusCode)
             {
                 return RedirectToAction("Index");
@@ -71,18 +71,18 @@ namespace CarBook.WebUI.Controllers
         public async Task<IActionResult> UpdateCar(int id)
         {
             var client = _clientFactory.CreateClient();
-             var responseMessage1 = await client.GetAsync("https://localhost:7004/api/Brands");
+            var responseMessage1 = await client.GetAsync("https://localhost:7004/api/Brands");
             var jsonData1 = await responseMessage1.Content.ReadAsStringAsync();
             var values1 = JsonConvert.DeserializeObject<List<ResultBrandDto>>(jsonData1);
             List<SelectListItem> brandValues = (from x in values1
-                                          select new SelectListItem
-                                          {
-                                            Text = x.name,
-                                            Value = x.brandID.ToString()
-                                          }).ToList();
+                                                select new SelectListItem
+                                                {
+                                                    Text = x.name,
+                                                    Value = x.brandID.ToString()
+                                                }).ToList();
             ViewBag.BrandValues = brandValues;
-            
-            var responseMessage = await client.GetAsync("https://localhost:7004/api/Cars/"+id);
+
+            var responseMessage = await client.GetAsync("https://localhost:7004/api/Cars/" + id);
             if (responseMessage.IsSuccessStatusCode)
             {
                 var jsonData = await responseMessage.Content.ReadAsStringAsync();
@@ -98,7 +98,7 @@ namespace CarBook.WebUI.Controllers
             var client = _clientFactory.CreateClient();
             var json = JsonConvert.SerializeObject(updateCarDto);
             StringContent stringContent = new StringContent(json, Encoding.UTF8, "application/json");
-            var responseMessage = await client.PutAsync("https://localhost:7004/api/Cars/"+updateCarDto.CarId, stringContent);
+            var responseMessage = await client.PutAsync("https://localhost:7004/api/Cars/" + updateCarDto.CarId, stringContent);
             if (responseMessage.IsSuccessStatusCode)
             {
                 return RedirectToAction("Index");
