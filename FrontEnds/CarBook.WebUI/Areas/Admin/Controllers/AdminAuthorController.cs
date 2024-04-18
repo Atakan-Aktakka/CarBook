@@ -10,7 +10,7 @@ namespace CarBook.WebUI.Areas.Admin.Controllers
     public class AdminAuthorController : Controller
     {
 
-      private readonly IHttpClientFactory _httpClientFactory;
+        private readonly IHttpClientFactory _httpClientFactory;
 
         public AdminAuthorController(IHttpClientFactory httpClientFactory)
         {
