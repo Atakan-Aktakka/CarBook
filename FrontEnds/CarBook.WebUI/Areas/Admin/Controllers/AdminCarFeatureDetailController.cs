@@ -15,7 +15,7 @@ namespace CarBook.WebUI.Areas.Admin.Controllers
     [Route("Admin/AdminCarFeatureDetail")]
     public class AdminCarFeatureDetailController : Controller
     {
-              private readonly IHttpClientFactory _httpClientFactory;
+        private readonly IHttpClientFactory _httpClientFactory;
         public AdminCarFeatureDetailController(IHttpClientFactory httpClientFactory)
         {
             _httpClientFactory = httpClientFactory;
@@ -41,13 +41,13 @@ namespace CarBook.WebUI.Areas.Admin.Controllers
         public async Task<IActionResult> Index(List<ResultCarFeatureByCarIdDto> resultCarFeatureByCarIdDto)
         {
 
-            foreach(var item in  resultCarFeatureByCarIdDto)
+            foreach (var item in resultCarFeatureByCarIdDto)
             {
                 if (item.Available)
                 {
                     var client = _httpClientFactory.CreateClient();
                     await client.GetAsync("https://localhost:7004/api/CarFeatures/CarFeatureChangeAvailableToTrue?id=" + item.CarFeatureID);
-                    
+
                 }
                 else
                 {

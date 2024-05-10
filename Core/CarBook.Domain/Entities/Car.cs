@@ -9,8 +9,8 @@ namespace CarBook.Domain.Entities
     {
         public int CarID { get; set; }
         public int BrandID { get; set; }
-		public Brand Brand { get; set; }
-		public string Model { get; set; }
+        public Brand Brand { get; set; }
+        public string Model { get; set; }
         public string CoverImageUrl { get; set; }
         public int Km { get; set; }
         public string Transmission { get; set; }
@@ -22,6 +22,8 @@ namespace CarBook.Domain.Entities
         public List<CarDescription> CarDescriptions { get; set; }
         public List<CarPricing> CarPricings { get; set; }
         public List<RentACar> RentACars { get; set; }
-         public List<RentACarProcess> RentACarProcesses { get; set; }
+        public List<RentACarProcess> RentACarProcesses { get; set; }
+        public List<Reservation> Reservations { get; set; }
+        public List<Review> Reviews { get; set; }
     }
 }
