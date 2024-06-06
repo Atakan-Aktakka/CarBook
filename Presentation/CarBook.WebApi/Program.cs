@@ -28,8 +28,43 @@ using CarBook.Application.Interfaces.CarDescriptionInterfaces;
 using CarBook.Persistence.Repositories.CarDescriptionRepositories;
 using CarBook.Application.Interfaces.ReviewInterfaces;
 using CarBook.Persistence.Repositories.ReviewRepositories;
+using FluentValidation.AspNetCore;
+using System.Reflection;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using CarBook.Application.Tools;
+using CarBook.WebApi.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddHttpClient();
+
+builder.Services.AddCors(opt =>
+{
+    opt.AddPolicy("CorsPolicy", builder =>
+    {
+        builder.AllowAnyHeader()
+        .AllowAnyMethod()
+        .SetIsOriginAllowed((host) => true)
+        .AllowCredentials();
+    });
+});
+builder.Services.AddSignalR();
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(opt =>
+{
+    opt.RequireHttpsMetadata = false;
+    opt.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidAudience = JwtTokenDefaults.ValidAudience,
+        ValidIssuer = JwtTokenDefaults.ValidIssuer,
+        ClockSkew = TimeSpan.Zero,
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(JwtTokenDefaults.Key)),
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+    };
+});
 
 // Add services to the container.
 builder.Services.AddScoped<CarBookContext>();
@@ -86,6 +121,10 @@ builder.Services.AddScoped<RemoveContactCommandHandler>();
 
 
 builder.Services.AddApplicationService(builder.Configuration);
+builder.Services.AddControllers().AddFluentValidation(x =>
+{
+    x.RegisterValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+});
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -100,12 +139,14 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+app.UseCors("CorsPolicy");
 
+app.UseHttpsRedirection();
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
-
+app.MapHub<CarHub>("/carhub");
 
 
 app.Run();

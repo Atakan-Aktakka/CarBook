@@ -13,6 +13,8 @@ namespace CarBook.Persistence.Context
         {
             optionsBuilder.UseSqlServer("Server=localhost,1433;Database=CarBook;User Id=SA;Password=reallyStrongPwd123;Encrypt=false;TrustServerCertificate=True;");
         }
+        public DbSet<AppRole> AppRoles{ get; set; }
+        public DbSet<AppUser> AppUsers{ get; set; }
         public DbSet<About> Abouts { get; set; }
         public DbSet<Banner> Banners { get; set; }
         public DbSet<Brand> Brands { get; set; }

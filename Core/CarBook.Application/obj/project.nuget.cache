@@ -1,16 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "nhvuRei0c0aJUuuH9SYrhu/g6EtZreJ/tB/sPr4Rh4wo4eoGTuiRzQwVYHT+pToyfb9jysSYPPtLhkzfP+OddQ==",
+  "dgSpecHash": "hLVnV3Knfof5Iah2QoOgsiMYp2/180w+jicomdZE7nenpmMzaHaJtpKCKqc0eOKdhDMQYvmTKYBlK1clQt27SA==",
   "success": true,
   "projectFilePath": "/Users/atakanaktakka/Desktop/CarBook/Core/CarBook.Application/CarBook.Application.csproj",
   "expectedPackageFiles": [
     "/Users/atakanaktakka/.nuget/packages/fluentvalidation/11.9.1/fluentvalidation.11.9.1.nupkg.sha512",
+    "/Users/atakanaktakka/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "/Users/atakanaktakka/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.5.1/fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "/Users/atakanaktakka/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
     "/Users/atakanaktakka/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/atakanaktakka/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "/Users/atakanaktakka/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "/Users/atakanaktakka/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
-    "/Users/atakanaktakka/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+    "/Users/atakanaktakka/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/Users/atakanaktakka/.nuget/packages/microsoft.identitymodel.abstractions/7.6.0/microsoft.identitymodel.abstractions.7.6.0.nupkg.sha512",
+    "/Users/atakanaktakka/.nuget/packages/microsoft.identitymodel.jsonwebtokens/7.6.0/microsoft.identitymodel.jsonwebtokens.7.6.0.nupkg.sha512",
+    "/Users/atakanaktakka/.nuget/packages/microsoft.identitymodel.logging/7.6.0/microsoft.identitymodel.logging.7.6.0.nupkg.sha512",
+    "/Users/atakanaktakka/.nuget/packages/microsoft.identitymodel.tokens/7.6.0/microsoft.identitymodel.tokens.7.6.0.nupkg.sha512",
+    "/Users/atakanaktakka/.nuget/packages/system.identitymodel.tokens.jwt/7.6.0/system.identitymodel.tokens.jwt.7.6.0.nupkg.sha512"
   ],
   "logs": [
     {
